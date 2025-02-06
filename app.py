@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Cargar el modelo
-model = load_model('/content/drive/MyDrive/Colab Notebooks/Redes Neuronales/models')
+model = load_model('fashion_mnist.keras')
 
 # Definir la interface de usuario
 st.title('Clasificador Fashion MNIST')
